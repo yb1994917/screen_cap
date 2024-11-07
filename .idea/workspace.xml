@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d03ab54-12b0-4dd2-87b8-4a9cbd7ff718" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/ddmlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/guava.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/log4j.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oracle-tools-all.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/devices/ADB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/gui/MinicapFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/minicap/AndroidScreenObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/minicap/Banner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/minicap/MiniCapUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/minicap/ScreenSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/minitouch/MiniTouchUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/utils/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/bin/armeabi-v7a/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/bin/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/bin/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-10/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-14/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-14/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-15/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-15/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-16/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-16/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-17/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-17/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-18/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-18/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-19/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-19/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-21/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-21/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-21/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-21/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-22/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-22/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-22/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-22/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-23/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-23/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-23/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-23/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-24/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-24/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-24/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-24/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-25/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-25/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-25/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-25/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-26/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-26/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-26/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-26/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-27/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-27/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-27/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-27/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minicap/shared/android-9/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/arm64-v8a/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/arm64-v8a/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/armeabi-v7a/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/armeabi-v7a/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/armeabi/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/armeabi/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/mips/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/mips/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/mips64/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/mips64/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/x86/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/x86/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/x86_64/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/minitouch/x86_64/minitouch-nopie" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://D:/apache/repository/org/apache/maven/plugins/maven-assembly-plugin/3.3.0/maven-assembly-plugin-3.3.0.jar!/META-INF/maven/plugin.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="jbr-17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2oVI4l5J8YYn2w5i37iBqdplgdP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/hijso/Downloads/screen_cap/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "spring.configuration.checksum": "dc8f99871c9bad1025dc826ec0f87d36"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hijso\Downloads\screen_cap\src" />
+      <recent name="C:\Users\hijso\Downloads\screen_cap\src\main\resources" />
+      <recent name="C:\Users\hijso\Downloads\screen_cap\src\main\java\com\company" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hijso\Downloads\screen_cap" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d03ab54-12b0-4dd2-87b8-4a9cbd7ff718" name="Changes" comment="" />
+      <created>1730948127712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730948127712</updated>
+      <workItem from="1730948129018" duration="3378000" />
+      <workItem from="1730959527516" duration="1659000" />
+      <workItem from="1730962305696" duration="576000" />
+      <workItem from="1730962899729" duration="3051000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.5</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.company</groupId>
+    <artifactId>screen_cap</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    <!-- 本地 JAR 包 my-library-1.jar -->
+    <dependency>
+        <groupId>com.company</groupId>
+        <artifactId>ddmlib</artifactId>
+        <version>1.0.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/libs/ddmlib.jar</systemPath>
+    </dependency>
+
+        <!-- 本地 JAR 包 my-library-1.jar -->
+        <dependency>
+            <groupId>com.company</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/guava.jar</systemPath>
+        </dependency>
+
+        <!-- 本地 JAR 包 my-library-1.jar -->
+        <dependency>
+            <groupId>com.company</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/log4j.jar</systemPath>
+        </dependency>
+
+        <!-- 本地 JAR 包 my-library-1.jar -->
+        <dependency>
+            <groupId>com.company</groupId>
+            <artifactId>oracle-tools-all</artifactId>
+            <version>1.2.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/oracle-tools-all.jar</systemPath>
+        </dependency>
+    </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/libs</directory>
+                <targetPath>BOOT-INF/lib/</targetPath>
+                <includes>
+                    <include>*.jar</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <targetPath>BOOT-INF/classes/</targetPath>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.company.gui.MinicapFrame</mainClass>  <!-- 替换为你的主类 -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
